@@ -1,0 +1,991 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, #BD8E2A 0%, #BD8E2A 100%), #4E0623;
+}
+.header{
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-section {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 740px;
+    grid-gap: 30px;
+    background: linear-gradient(0deg, #BD8E2A 0%, #BD8E2A 100%), #4E0623;
+}
+
+.hero-section .descripcion-hero h1 {
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+}
+
+.hero-section .descripcion-hero p {
+    color: white;
+}
+
+.hero-section .contenedor-perro {
+    display: grid;
+    place-content: center;
+}
+
+.hero-section img {
+    width: 100%;
+    z-index: 1;
+}
+.hero-section .contenedor-perro img {
+    width: 220px;
+    padding: 0% !important;
+}
+.navbar-toggler:focus {
+    
+    box-shadow: none !important; 
+}
+.navbar-nav{
+    text-align: end;
+}
+.page-section{
+    padding-top: 500px !important;
+}
+
+.page-section h1{
+    font-family: 'BioRhyme', serif;
+}
+
+.page-section ul{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.logo {
+    width: 18vh;
+    height: 100%;
+    padding-left: 4%;
+}
+
+.navbar-brand {
+    margin-right: auto;
+  
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 50px;
+    /* Espacio entre elementos de navegación */
+}
+
+.Eslogan {
+    color: #a22c2c;
+    font-family: 'BioRhyme', serif;
+    font-size: 104.1px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 109.27px;
+    padding-left: 4%;
+}
+
+.parrafo1 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.24px;
+    padding-left: 4%;
+}
+
+.enlace{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 39.24px;
+    padding-left: 4%;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    padding-left: 4%;
+}
+
+.product-description {
+    color: #0A0A0A;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.14px;
+}
+
+/* Linea del tiempo */
+
+.page-section {
+    padding-top: 30rem;
+    padding-bottom: 10rem;
+    background-color: white !important;
+}
+
+.timeline {width: 100%; max-width: 980px; margin: 0 auto; list-style: none; padding: 10px 0; position: relative;}
+.timeline:before {top: 0; bottom: 0; position: absolute; content:" "; width: 2px; background: rgb(162,134,107); background: linear-gradient(180deg, rgba(162,134,107,0) 0%, rgba(255,170,0,1) 50%, rgba(30,32,65,0) 100%);left: 50%; margin-left: -1.5px;}
+.timeline > li {position: relative; width: 50%; float: left; clear: left;}
+.timeline > li:nth-child(1) {margin-top: 220px;}
+.timeline > li:nth-child(2) {margin-top: 350px;}
+.timeline > li:nth-child(3) {margin-top: 200px;}
+.timeline > li:nth-child(4) {margin-top: 220px;}
+.timeline > li:nth-child(5) {margin-top: 220px;}
+.timeline > li:nth-child(6) {margin-top: 217px;}
+.timeline > li:nth-child(7) {margin-top: 200px;}
+.txt-left {padding-right: 50px; text-align: right;}
+.txt-right {padding-left: 50px; text-align: left;}
+.timeline > li:before, .timeline > li:after {content:" "; display: table;}
+.timeline > li:after {clear: both;}
+.timeline > li:before, .timeline > li:after {content:" "; display: table;}
+.timeline > li:after {clear: both;}
+.timeline > li > .timeline-panel {width: calc(100% - 25px); width: -moz-calc(100% - 25px); width: -webkit-calc(100% - 25px); float: left; position: relative;}
+.timeline > li > .timeline-badge {color: #ffaa00; width: 100px; height: 100px; line-height: 50px; text-align: center; position: absolute; top: 7px; right: -50px; z-index: 100;}
+.timeline > li > .timeline-badge img {width: 100%;}
+.timeline > li.timeline-inverted > .timeline-panel {float: right;}
+.timeline > li.timeline-inverted > .timeline-panel:before {border-left-width: 0; border-right-width: 15px; left: -15px; right: auto;}
+.timeline > li.timeline-inverted > .timeline-panel:after {border-left-width: 0; border-right-width: 14px; left: -14px; right: auto;}
+.timeline > li.timeline-inverted {float: right; clear: right;}
+.timeline > li.timeline-inverted > .timeline-badge {left: -50px;}
+.no-float {float: none !important;}
+
+.imagenTimeLine{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+/* Animacion */
+
+.reveal {position: relative; opacity: 0;}
+.reveal.active {opacity: 1;}
+.active.fade-bottom {animation: fade-bottom 1s ease-in;}
+.active.fade-left {animation: fade-left 1s ease-in;}
+.active.fade-left-level1 {animation: fade-left 0.8s ease-in;}
+.active.fade-left-level2 {animation: fade-left 0.6s ease-in;}
+.active.fade-left-level3 {animation: fade-left 0.5s ease-in;}
+.active.fade-right {animation: fade-right 1s ease-in;}
+.active.fade-left-fast {animation: fade-left-fast 0.5s ease-in;}
+.active.fade-left-faster {animation: fade-left-faster 0.8s ease-in;}
+.active.fade-left-faster2 {animation: fade-left-faster2 0.5s ease-in;}
+.active.fade-right-fast {animation: fade-right-fast 0.5s ease-in;}
+.active.fade-bottom-fast {animation: fade-bottom-fast 0.5s ease-in;}
+.active.fade-bottom-fast2 {animation: fade-bottom-fast2 0.5s ease-in;}
+.active.fade-left-scale {animation: fade-left-scale 1s ease-in;}
+@keyframes fade-bottom {0% {transform: translateY(50px);opacity: 0;}100% {transform: translateY(0);opacity: 1;}}
+@keyframes fade-left {0% {transform: translateX(-100px);opacity: 0;} 100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-left-fast {0% {transform: translateX(-100px);opacity: 1;}100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-left-faster2 {0% {transform: translateX(-100px);opacity: 1;}100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-left-faster {0% {transform: translateX(-100px);opacity: 0;}100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-left-level1 {0% {transform: translateX(-100px);opacity: 0;} 100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-left-level2 {0% {transform: translateX(-100px);opacity: 0;} 100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-left-level3 {0% {transform: translateX(-100px);opacity: 0;} 100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-right {0% {transform: translateX(100px);opacity: 0;}100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-right-fast {0% {transform: translateX(100px);opacity: 0;}100% {transform: translateX(0);opacity: 1;}}
+@keyframes fade-bottom-fast {0% {transform: translateY(50px);opacity: 0;}100% {transform: translateY(0);opacity: 1;}}
+@keyframes fade-bottom-fast2 {0% {transform: translateY(50px);opacity: 1;}100% {transform: translateY(0);opacity: 1;}}
+@keyframes fade-left-scale {from {width:0px;} to {width:calc( 100% - 1px );}}
+
+/* Carrusel */
+
+.swiper-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1040px;
+} /* Ajusta el espacio entre los dos Swipers */
+
+.mySwiper,
+.mySwiper2 {
+    margin: 50px 50px; /* Ajusta según sea necesario */
+}
+
+.Productos .swiper {
+    margin-top: 40px;
+}
+
+.Productos .productos-title{
+    font-family: 'BioRhyme', serif;
+}
+
+.Productos .productos-category{
+    font-family: 'BioRhyme', serif;
+}
+
+.Productos .swiper-slide {
+    background-color: #BD8E2A !important;
+    /* box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2); */
+    border-radius: 15px;
+    height: 420px;
+    width: 295px;
+    position: relative;
+    margin-right: 20px;
+    /* Espacio entre las imágenes */
+}
+
+.Productos .swiper-slide img {
+    width: 100%; 
+    border-radius: 15px;
+    height: 100% ;
+    object-fit: cover;
+    /* Para mantener la proporción de la imagen */
+}
+
+.Productos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.Productos .swiper-txt h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, -1px) !important;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+
+.Productos .swiper-slide:hover .add-to-cart-button {
+    background: #0A0A0A;
+    color: white;
+}
+
+.Productos .swiper-slide {
+    background-color: white;
+    border-radius: 15px;
+    height: 420px;
+    width: 295px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.Productos .swiper-slide img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Productos .swiper-slide:hover .add-to-cart-button {
+    background: #0A0A0A;
+    color: white;
+}
+
+.patitasNegras {
+    position: absolute;
+    bottom: 50px;
+    height: 500px;
+    right: 70px;
+}
+
+.Productos .swiper-slide {
+    background-color: white;
+    border-radius: 15px;
+    height: 420px;
+    width: 295px;
+    position: relative;
+    /* margin-right: 10px; */
+}
+
+.Productos .swiper-slide img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Productos .swiper-slide:hover .add-to-cart-button {
+    background: #0A0A0A;
+    color: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+
+.productos-title {
+    color: black;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.categorias{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.productos-category {
+    padding-left: 4%;
+    color: black;
+    font-size: 3rem;
+    margin-top: 50px !important;
+    padding: 0%;
+    margin: 0%; 
+}
+
+.swiper-container-wrapper {
+    max-width: 100%;
+    padding: 0 20px; 
+}
+@media (max-width: 768px) {
+    /*timeline*/
+    ul.timeline .txt-left {text-align: left !important;}
+    ul.timeline h3 {font-size: 6vw !important;}
+    ul.timeline p {font-size: 4vw !important;}
+    .no-padding-bottom {padding-top: 0 !important;}
+    ul.timeline:before {left: 40px;}
+    ul.timeline > li {margin-bottom: 0px; position: relative; width:100%;float: left; clear: left;}
+    ul.timeline > li > .timeline-panel {width: calc(100% - 65px);width: -moz-calc(100% - 65px);width: -webkit-calc(100% - 65px);}
+    ul.timeline > li > .timeline-badge {left: 28px;margin-left: 0;top: 0; width: 24px !important; height: 24px !important;}
+    ul.timeline > li > .timeline-panel {float: right;}
+    ul.timeline > li > .timeline-panel:before {border-left-width: 0; border-right-width: 15px; left: -15px; right: auto;}
+    ul.timeline > li > .timeline-panel:after {border-left-width: 0; border-right-width: 14px; left: -14px; right: auto;}
+    .timeline > li.timeline-inverted {float: left; clear: left; margin-top: 30px; margin-bottom: 30px;}
+    .timeline > li.timeline-inverted > .timeline-badge {left: 28px;}
+    .timeline > li:nth-child(1) {margin-top: 100px !important;}
+    .timeline > li:nth-child(2) {margin-top: 50px !important;}
+    .timeline > li:nth-child(3) {margin-top: 0 !important;}
+    .timeline > li:nth-child(4) {margin-top: 40px !important;}
+    .timeline > li:nth-child(5) {margin-top: 0px !important;}
+    .timeline > li:nth-child(6) {margin-top: 50px !important;}
+    .timeline > li:nth-child(7) {margin-top: 20px !important;}
+    .txt-right {padding-left: 0px !important;}
+    .square h3 {font-size: 4vw !important; left: 5px !important;}
+    .square {flex-basis: calc(50%) !important;}
+    .stamp {top: -5px; width: 40px;}
+    .column2 {width: 100% !important; flex: 100% !important;}
+    .accordion {position: inherit !important; width: 100%; display: block !important;}
+    .accordion-header.extra-pad h3 {padding-left: 0px !important;}
+    .stamp.haz2 {position: inherit !important; margin-bottom: 10px;}
+    .accordion-body {min-width: 100% !important; position: inherit !important; top: 0 !important;}
+    .box-accordion {padding-left: 50px;}
+    .columns.whop-sec img {width: 100%; top: 10%;}
+    section.page-section .col-6 {width: 100% !important; flex: 100% !important;}
+    .square-inner.animate-box img {position: inherit !important;}
+    .square-inner.img-box img {position: inherit !important; left: 20% !important; width: 55% !important;}
+    .square-inner.box-megan {position: relative !important;}
+    .square-inner.box-megan img {bottom: 0; left: unset !important; width: 100% !important; right: 0px !important;}
+    .square-inner.box-megan .box-color {position: absolute;}
+    .smartphone, .bk3 {display: none;}
+    
+}
+
+.SobreNosotros {
+    width: 100%;
+    position: relative;
+    background-color: #FEFBF2;
+    padding-top: 50px;
+    padding-bottom: 350px;
+}
+
+.SobreNosotros .tituloSobreNosotros h1 {
+    text-align: center; 
+    font-size: 5rem;
+    font-family: 'BioRhyme', serif;
+}
+
+.SobreNosotros .textoSobreNosotros .parrafo1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 3;
+}
+.SobreNosotros .textoSobreNosotros .parrafo2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 3;
+}
+.SobreNosotros .textoSobreNosotros .parrafo3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 3;
+}
+
+.patitasDoradas {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    height: 22vh;
+}
+
+.perroDerecho {
+    position: absolute;
+    bottom: 0px;
+    height: 1000px;
+    right: 0px;
+}
+.perroIzquierdo {
+    position: absolute;
+    bottom: 0px;
+    height: 550px;
+    left: 0px;
+}
+
+
+.box-burger-col {margin-top: -15%;}
+.col-burger {padding: 25px 50px; position: relative;}
+.col-burger img {z-index: 10; justify-content: center !important;}
+.col-burger .box-text {text-align: center; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; z-index: 10; padding: 10% 5% !important;}
+
+.red {background: black;}
+.yellow {background: black;}
+.green {background: black;}
+
+/*adjusts*/
+strong {font-family: 'FlameBold' !important;}
+.maxw {max-width: 500px;}
+
+.red {background: black;}
+.yellow {background: black;}
+.green {background: black;}
+.bg-fix {position: relative;}
+.bg-fix .col-6 {z-index: 1000;}
+.bg-fix .box-color {background: #502314; position: absolute; top: 0; left: 0; height: 100%; z-index: 0;}
+/*row*/
+.row {margin: 0;}
+.block {width:100%; height: 100%; margin: 0;}
+.no-margin {margin: 0; padding: 0;}
+.no-padding-bottom {padding-bottom: 0;}
+
+section .col-6 {display: flex; position: relative;}
+section.section-items .col-6, section.no-padding .col-6 {padding: 0 !important;}
+.box-text {padding: 10% 6%; display: -webkit-flexbox; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; justify-content: center;flex-wrap: wrap;}
+.box-text.center {max-width: 980px; margin: 0 auto; text-align: center;}
+.margin-adjust {padding: 15% 6% !important;}
+.columns {display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; overflow:hidden;}
+.column1 {flex: 40%;}
+.column2 {flex: 50%;}
+.column3 {flex: 20%;}
+.column4 {flex: 33%;}
+.columns img {width: 100%; }
+.columns.whop-sec img {width: 70%; top: 20%;}
+
+
+  
+.footerLinks {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    text-align: center;
+}
+
+
+  .hexagon-wrapper {
+    margin: auto;
+    display: flex;
+    text-align: initial !important;
+    width: 115px;
+    height: 115px;
+    cursor: pointer;
+    
+  }
+
+  .hexagon {
+    position: relative;
+    width: 46%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    background: linear-gradient(-180deg, #614915, #BD8E2A);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: .5s;
+    
+  }
+
+  .hexagon i {
+    z-index: 1;
+    margin: auto;
+    font-size: 30px;
+    color: transparent;
+    background: linear-gradient(45deg, white, black);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .hexagon:before,
+  .hexagon:after {
+    position: absolute;
+    content: "";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    transition: .5s;
+    transform-origin: center;
+  }
+  .hexagon:before {
+    transform: rotateZ(60deg);
+  }
+  .hexagon:after {
+    transform: rotateZ(-60deg);
+  }
+  .hexagon:hover {
+    border-radius: 50px;
+    transition: .5s;
+  }
+  .hexagon:hover:before {
+    border-radius: 50px;
+    transition: .5s;
+  }
+  .hexagon:hover:after {
+    border-radius: 50px;
+    transition: .5s;
+  }
+
+.footer{
+    background-color: black;
+    padding: 50px;
+}
+@media(min-width:375px) {
+    .hero-section {
+        height: 965px;
+    }
+
+    .hero-section .descripcion-hero h1 {
+        color: white;
+        font-size: 4rem;
+    }
+    
+}
+
+@media(min-width:425px) {
+    .hero-section {
+        height: 960px;
+    }
+
+    .hero-section .descripcion-hero h1 {
+        
+        color: white;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 0 2%;
+    }
+    .hero-section .descripcion-hero p {
+
+        text-align: center;
+    }
+    .header{
+        padding-bottom: 0px;
+    }
+    .hero-section .contenedor-perro img {
+        width: 282px;
+        
+    }
+    .Productos swiper-container-wrapper {
+        padding: 0% !important;
+    }
+    .page-section{
+        padding-top: 10rem !important;
+    }
+
+    .imagenTimeLine{
+        width: 30px !important; 
+        height: 40px !important; 
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
+
+    .categorias{
+        justify-content: center !important;
+    }
+
+    .patitasNegras{
+        position: absolute;
+        bottom: 50px;
+        height: 150px !important; 
+        right: 10px !important;
+        z-index: 1;
+    }
+    .productos-title{
+        font-size: 65px !important;
+    }
+    .tituloSobreNosotros h1{
+        font-size: 2.5rem !important;
+    }
+    .patitasDoradas{
+        position: absolute;
+        top: 20px !important;
+        left: 5px !important;
+        height: 7vh !important;
+    }
+    .textoSobreNosotros p{
+        font-size: 17px !important;
+        padding: 4% !important;
+    }
+    .logo{
+        height: 100px !important;
+        width: 100% !important;
+    }
+    .perroDerecho {
+        position: absolute;
+        bottom: 0px;
+        height: 400px !important;
+        right: 0px;
+    }
+
+    .perroIzquierdo {
+        position: absolute;
+        bottom: 0px;
+        height: 200px !important;
+        left: 0px !important;
+        padding: 0% !important;
+    }
+    .columns img {
+        height: auto;
+        width: 250px !important;
+    }
+    .hexagon-wrapper {
+        margin: auto;
+        display: flex;
+        text-align: initial !important;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+        
+      }
+    .footerLinks li a {
+        font-size: 15px !important;
+        text-decoration: none;
+        letter-spacing: 0px !important;
+        line-height: 1em;
+        text-transform: uppercase;
+        
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+      }
+}
+
+@media(min-width:768px) {
+    .hero-section {
+        height: 1155px;
+    }
+
+    .hero-section .descripcion-hero h1 {
+        color: white;
+        font-size: 6rem;
+    }
+    .hero-section .descripcion-hero p {
+
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .hero-section .contenedor-perro img {
+        width: 485px;
+        
+    }
+    .page-section{
+        padding-top: 15rem !important;
+    }
+    .swiper-container-wrapper {
+        max-width: 70% !important;
+        padding: 0 20px;
+    }
+    .patitasNegras{
+        position: absolute;
+        bottom: 100px !important;
+        height: 250px !important; 
+        right: 15px !important;
+        z-index: 1;
+    }
+    
+    .patitasDoradas {
+        position: absolute;
+        top: 50px !important;
+        left: 40px !important;
+        height: 11vh !important;
+    }
+    .textoSobreNosotros{
+        .parrafoS1{
+            text-align: center;
+            
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            padding-top: 10px !important;
+            line-height: 3 !important;
+        }
+        .parrafoS2{
+            text-align: center;
+            
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            padding-top: 10px !important;
+            line-height: 3 !important;
+        }
+        
+        .parrafoS3 {
+            text-align: center !important;
+            
+            padding-left: 15% !important;
+            padding-right: 15% !important;
+            padding-top: 10px !important;
+            line-height: 3 !important;
+        }
+        
+    }
+    .SobreNosotros {
+        width: 100%;
+        position: relative;
+        background-color: #FEFBF2 ;
+        padding-top: 50px;
+        padding-bottom: 180px !important;
+    }
+}
+
+@media(min-width:1024px) {
+    .hero-section .descripcion-hero h1 {
+        color: white;
+        font-size: 2.5rem;
+        padding-left: 4%;
+        text-align: start;
+    }
+    
+    .hero-section .descripcion-hero p {
+        color: white;
+        font-size: 18px;
+        text-align: start;
+        padding-left: 4%;
+    }
+
+    .hero-section {
+        height: 720px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-section .contenedor-perro img {
+        width: 550px;
+        padding-top: 270px !important;
+    }
+    .page-section{
+        padding-top: 15rem !important;
+    }
+
+     .imagenTimeLine{
+        width: 100px !important; 
+        height: 100px !important; 
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
+    .swiper-container-wrapper {
+        max-width: 90% !important;
+        padding: 0 20px;
+    }
+
+    .tituloSobreNosotros h1 {
+        text-align: center !important;
+        font-size: 5rem !important;
+    }
+    .container, .container-lg, .container-md, .container-sm {
+        padding: 0% !important;
+    }
+    .textoSobreNosotros{
+        .parrafoS1{
+            text-align: center;
+            font: 25px !important;
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            padding-top: 10px !important;
+            line-height: 3 !important;
+        }
+        .parrafoS2{
+            text-align: center;
+            font: 25px !important;
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            padding-top: 10px !important;
+            line-height: 3 !important;
+        }
+        
+        .parrafoS3 {
+            text-align: center !important;
+            font: 25px !important;
+            padding-left: 12% !important;
+            padding-right: 12% !important;
+            padding-top: 10px !important;
+            line-height: 3 !important;
+        }
+        
+    }
+    .patitasNegras{
+        position: absolute;
+        bottom: 100px !important;
+        height: 150px !important; 
+        right: 15px !important;
+        z-index: 1;
+    }
+    
+    .patitasDoradas {
+        position: absolute;
+        top: 50px !important;
+        left: 35px !important;
+        height: 15vh !important;
+    }
+    
+    .perroDerecho {
+        position: absolute ;
+        bottom: 0px !important;
+        height: 420px !important;
+        right: 0px !important;
+        
+    }
+    .perroIzquierdo {
+        position: absolute;
+        bottom: 0px;
+        height: 250px !important;
+        left: 0px;
+    }
+
+}
+
+@media (min-width:1920px) {
+    .hero-section .descripcion-hero h1 {
+        color: white;
+        font-size: 8rem;
+        text-align: start;
+        padding-left: 4%;
+    }
+    
+    .hero-section .descripcion-hero p {
+        color: white;
+        text-align: start;
+    }
+    .hero-section {
+        height: 800px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-section .contenedor-perro img {
+        width: 980px;
+        padding-top: 0px !important; 
+        
+    }
+    .page-section{
+        padding-top: 30rem !important;
+    }
+    
+     .imagenTimeLine{
+        width: 100px !important; 
+        height: 100px !important; 
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
+    .tituloSobreNosotros h1 {
+        text-align: center !important;
+        font-size: 5rem !important;
+    }
+    
+    .textoSobreNosotros{
+        .parrafoS1{
+            text-align: center;
+            font: 30px !important;
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            padding-top: 30px !important;
+            line-height: 3 !important;
+        }
+        .parrafoS2{
+            text-align: center;
+            font: 30px !important;
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            padding-top: 30px !important;
+            line-height: 3 !important;
+        }
+        
+        .parrafoS3 {
+            text-align: center !important;
+            font: 30px !important;
+            padding-left: 20% !important;
+            padding-right: 20% !important;
+            padding-top: 30px !important;
+            line-height: 3 !important;
+        }
+        
+    }
+    .patitasNegras{
+        position: absolute;
+        bottom: 50px;
+        height: 400px !important; 
+        right: 40px !important;
+        z-index: 1;
+    }
+    
+    .patitasDoradas {
+        position: absolute;
+        top: 50px !important;
+        left: 40px !important;
+        height: 22vh !important;
+    }
+    
+    .perroDerecho {
+        position: absolute ;
+        bottom: 0px !important;
+        height: 1000px !important;
+        right: 0px ;
+    }
+    .perroIzquierdo {
+        position: absolute;
+        bottom: 0px;
+        height: 500px !important;
+        left: 0px;
+    }
+    .columns img{
+        align-items: center !important;
+        height: 250px;
+        width: auto !important;
+    }
+}
